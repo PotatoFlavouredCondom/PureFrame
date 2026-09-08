@@ -3,21 +3,21 @@
 # Reference: https://docs.github.com/en/repositories/managing-your-repositories-settings-and-features/customizing-your-repository/about-code-owners
 
 # Default owner for everything not matched below.
-*                          @MayonaiseLover
+*                          @xenoaitham
 
 # Python pipeline core.
-/pureframe/                @MayonaiseLover
-/tests/                    @MayonaiseLover
+/pureframe/                @xenoaitham
+/tests/                    @xenoaitham
 
 # Desktop GUI (Tauri + React).
-/gui/                      @MayonaiseLover
-/gui/src-tauri/            @MayonaiseLover
+/gui/                      @xenoaitham
+/gui/src-tauri/            @xenoaitham
 
 # CI / release automation — restrict to maintainers.
-/.github/                  @MayonaiseLover
-/.github/workflows/        @MayonaiseLover
+/.github/                  @xenoaitham
+/.github/workflows/        @xenoaitham
 
 # Security-sensitive surfaces.
-SECURITY.md                @MayonaiseLover
-/pureframe/utils/ffmpeg.py @MayonaiseLover
-/gui/src-tauri/src/lib.rs  @MayonaiseLover
+SECURITY.md                @xenoaitham
+/pureframe/utils/ffmpeg.py @xenoaitham
+/gui/src-tauri/src/lib.rs  @xenoaitham
