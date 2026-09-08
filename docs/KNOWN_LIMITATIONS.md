@@ -71,7 +71,7 @@ If you encounter a failure case not listed here:
 
 1. Run `pureframe plan` on the content to get the detection output
 2. Use `pureframe preview` to generate the contact sheet
-3. Open an issue at [GitHub Issues](https://github.com/MayonaiseLover/PureFrame/issues) with:
+3. Open an issue at [GitHub Issues](https://github.com/xenoaitham/PureFrame/issues) with:
    - Content type and genre
    - Strictness level and threshold used
    - Whether it was a false positive or false negative

@@ -5,7 +5,7 @@ Thanks for wanting to contribute! Here's how to get started.
 ## Setup
 
 ```bash
-git clone https://github.com/MayonaiseLover/PureFrame.git
+git clone https://github.com/xenoaitham/PureFrame.git
 cd PureFrame
 pip install -e ".[dev]"
 ```

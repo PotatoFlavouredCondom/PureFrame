@@ -59,10 +59,10 @@ dev = [
 pureframe = "pureframe.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/MayonaiseLover/PureFrame"
-Documentation = "https://github.com/MayonaiseLover/PureFrame/tree/master/docs"
-Issues = "https://github.com/MayonaiseLover/PureFrame/issues"
-Source = "https://github.com/MayonaiseLover/PureFrame"
+Homepage = "https://github.com/xenoaitham/PureFrame"
+Documentation = "https://github.com/xenoaitham/PureFrame/tree/master/docs"
+Issues = "https://github.com/xenoaitham/PureFrame/issues"
+Source = "https://github.com/xenoaitham/PureFrame"
 
 [tool.hatch.build.targets.wheel]
 packages = ["pureframe"]

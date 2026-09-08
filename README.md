@@ -6,9 +6,9 @@
 
   <a href="#install"><img src="https://img.shields.io/pypi/v/pureframe?color=%2334D058&label=PyPI" alt="PyPI" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT" /></a>
-  <a href="https://github.com/MayonaiseLover/PureFrame/actions"><img src="https://img.shields.io/github/actions/workflow/status/MayonaiseLover/PureFrame/ci.yml?label=CI" alt="CI" /></a>
-  <a href="https://codecov.io/gh/MayonaiseLover/PureFrame"><img src="https://codecov.io/gh/MayonaiseLover/PureFrame/graph/badge.svg" alt="codecov" /></a>
-  <a href="https://github.com/MayonaiseLover/PureFrame/releases"><img src="https://img.shields.io/github/v/release/MayonaiseLover/PureFrame?include_prereleases&label=release" alt="Release" /></a>
+  <a href="https://github.com/xenoaitham/PureFrame/actions"><img src="https://img.shields.io/github/actions/workflow/status/xenoaitham/PureFrame/ci.yml?label=CI" alt="CI" /></a>
+  <a href="https://codecov.io/gh/xenoaitham/PureFrame"><img src="https://codecov.io/gh/xenoaitham/PureFrame/graph/badge.svg" alt="codecov" /></a>
+  <a href="https://github.com/xenoaitham/PureFrame/releases"><img src="https://img.shields.io/github/v/release/xenoaitham/PureFrame?include_prereleases&label=release" alt="Release" /></a>
   <img src="https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue" alt="Python 3.11 | 3.12 | 3.13" />
   <img src="https://img.shields.io/badge/telemetry-none-brightgreen" alt="Telemetry: None" />
 
@@ -29,7 +29,7 @@ Pre-built binaries. Grab the latest release.
 
 Native installer with the graphical UI:
 
-- **Windows** — [PureFrame_x64-setup.exe](https://github.com/MayonaiseLover/PureFrame/releases/latest) or `.msi`
+- **Windows** — [PureFrame_x64-setup.exe](https://github.com/xenoaitham/PureFrame/releases/latest) or `.msi`
 - **macOS (Apple Silicon)** — `PureFrame_aarch64.dmg`
 - **macOS (Intel)** — `PureFrame_x64.dmg`
 - **Linux** — `.AppImage`, `.deb`, or `.rpm`
@@ -38,11 +38,11 @@ Native installer with the graphical UI:
 
 No Python needed:
 
-- **Windows** — [pureframe-windows-x86_64.zip](https://github.com/MayonaiseLover/PureFrame/releases/latest/download/pureframe-windows-x86_64.zip)
-- **macOS (Apple Silicon)** — [pureframe-macos-arm64.tar.gz](https://github.com/MayonaiseLover/PureFrame/releases/latest/download/pureframe-macos-arm64.tar.gz)
-- **Linux (x86_64)** — [pureframe-linux-x86_64.tar.gz](https://github.com/MayonaiseLover/PureFrame/releases/latest/download/pureframe-linux-x86_64.tar.gz)
+- **Windows** — [pureframe-windows-x86_64.zip](https://github.com/xenoaitham/PureFrame/releases/latest/download/pureframe-windows-x86_64.zip)
+- **macOS (Apple Silicon)** — [pureframe-macos-arm64.tar.gz](https://github.com/xenoaitham/PureFrame/releases/latest/download/pureframe-macos-arm64.tar.gz)
+- **Linux (x86_64)** — [pureframe-linux-x86_64.tar.gz](https://github.com/xenoaitham/PureFrame/releases/latest/download/pureframe-linux-x86_64.tar.gz)
 
-> **Intel mac users:** no standalone PyInstaller build (GitHub-hosted `macos-13` runners are EOL'd and perpetually backlogged). Use `pip install pureframe` or the Tauri `PureFrame_x64.dmg` from the [latest release](https://github.com/MayonaiseLover/PureFrame/releases/latest).
+> **Intel mac users:** no standalone PyInstaller build (GitHub-hosted `macos-13` runners are EOL'd and perpetually backlogged). Use `pip install pureframe` or the Tauri `PureFrame_x64.dmg` from the [latest release](https://github.com/xenoaitham/PureFrame/releases/latest).
 
 Extract anywhere, then run `pureframe --help` (Windows: `pureframe.exe --help`).
 
@@ -61,7 +61,7 @@ Verify downloads against the `SHA256SUMS.txt` asset attached to each release:
 
 ```bash
 # Linux / macOS
-curl -LO https://github.com/MayonaiseLover/PureFrame/releases/latest/download/SHA256SUMS.txt
+curl -LO https://github.com/xenoaitham/PureFrame/releases/latest/download/SHA256SUMS.txt
 sha256sum -c --ignore-missing SHA256SUMS.txt
 
 # Windows PowerShell
@@ -77,7 +77,7 @@ if ($expected -eq $actual) { 'OK' } else { 'MISMATCH' }
 pip install pureframe
 
 # From source (development)
-git clone https://github.com/MayonaiseLover/PureFrame.git
+git clone https://github.com/xenoaitham/PureFrame.git
 cd PureFrame
 pip install -e ".[dev]"
 ```
